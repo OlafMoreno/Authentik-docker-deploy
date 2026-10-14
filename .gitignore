@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+
+# Datos persistentes y certificados locales
+/media/
+/custom-templates/
+/certs/
+
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+*~
